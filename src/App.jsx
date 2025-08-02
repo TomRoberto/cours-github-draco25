@@ -15,6 +15,8 @@ function App() {
 
   // tab.push(78);
 
+  const hello = "hello";
+
   return (
     <>
       <Header />
