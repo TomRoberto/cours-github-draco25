@@ -17,6 +17,8 @@ function App() {
 
   const hello = "hello";
 
+  console.log(hello);
+
   return (
     <>
       <Header />
