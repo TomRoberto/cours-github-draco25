@@ -3,7 +3,7 @@ const Header = () => {
     <header
       style={{ backgroundColor: "green", fontWeight: "bold", color: "red" }}
     >
-      Header du main et de Tom
+      Header du main et de Tom Modifications
     </header>
   );
 };
