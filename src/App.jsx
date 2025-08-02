@@ -2,6 +2,7 @@ import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
+import Header from "./components/Header";
 
 function App() {
   const [tab, setTab] = useState([1, 2, 3, 4]);
@@ -16,6 +17,7 @@ function App() {
 
   return (
     <>
+      <Header />
       <h1>Hello</h1>
       {tab.map((elem, index) => {
         return <p key={index}>{elem}</p>;
