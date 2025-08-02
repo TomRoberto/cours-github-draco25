@@ -1,5 +1,5 @@
 const Header = () => {
-  return <header>Header</header>;
+  return <header style={{ backgroundColor: "green" }}>Header</header>;
 };
 
 export default Header;
