@@ -12,7 +12,7 @@ function App() {
 
   // count = 67; // Interdit
 
-  tab.push(78);
+  // tab.push(78);
 
   return (
     <>
